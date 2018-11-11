@@ -1,0 +1,143 @@
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    padding-right: 10px;
+    margin-top: 30;
+}
+
+.main-nav li
+{
+    display: inline-block;
+ }
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    }
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+		width: auto;
+        height: auto;
+		float: left;
+		padding-left: 2px;    
+}	
+
+body
+{
+        background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("background.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        font-family: monospace;
+        text-align: center;
+}
+
+
+.contact-title
+{
+    color: white;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+  }
+
+.contact-title h1
+{
+    font-size: 32px;
+    color: white;
+    line-height: 10px;
+    padding-top: 250px;
+}
+.contact-title h2
+{
+    font-size: 20px;
+    color: white;
+    line-height: 8px
+    }
+
+form
+{   
+    color: transparent;
+    transition: all 4s ease-in-out;    
+}
+
+.form-control
+{
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: gray;
+    font-size: 18px;
+    
+}
+
+input 
+{
+    height: 45px;
+    
+}
+
+form .submit
+{
+    background: orange;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+}
+
+form .submit:hover;
+{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
